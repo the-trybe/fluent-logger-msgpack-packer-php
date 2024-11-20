@@ -1,0 +1,20 @@
+{
+    "name": "the-trybe/fluent-logger-msgpack-packer",
+    "description": "MsgPack Packer for Fluent Logger",
+    "type": "library",
+    "require": {
+        "ext-msgpack": "*",
+        "fluent/logger": ">=0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheTrybe\\Fluent\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Remita Amine",
+            "email": "remitamine@gmail.com"
+        }
+    ]
+}
